@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+body {
+    background-color: rgb(252, 252, 252);
+    font: normal 16px 'Roboto', sans-serif;
+
+}
+
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+}
+
+
+
+.avatar {
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgb(3, 3, 3);
+    width: 200px;
+    height: 200px;
+}
+
+.info p {
+    color: #454545;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    
+
+}
+
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+
+
+
+
+.contaneiner {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+  }
+
+
+
+
+/* .social {
+    background-color: chartreuse;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    margin: 5px;
+    border: 5px solid red;
+
+} */
+
+
+.bg-yellow {
+    background-color: #fff9dc;
+}
+
+.bg-green {
+    background-color: #e5ffe7;
+}
+
+
+.card {
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.list {
+    padding: 20px;
+}
+
+
+.list li {
+    color: #868686;
+    margin-bottom: 10px;
+    
+}
+
+.contact h2 {
+    text-align: center;
+
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color:#868686
+
+
+}
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:first-child{
+    margin-right: 20px;
+}
+
+
+.btn {
+    background: black;
+    color: aliceblue;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
